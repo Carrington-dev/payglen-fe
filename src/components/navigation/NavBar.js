@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, Send } from "lucide-react";
+import { Menu, Send, X } from "lucide-react";
 import { useState } from "react";
 
 const NavBar = () => {

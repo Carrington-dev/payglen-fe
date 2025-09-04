@@ -18,8 +18,8 @@ const NavBar = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
 
-              
-              <div className="flex-shrink-0 flex items-center">
+
+              <div onClick={() => handleRedirect('/')} className="flex-shrink-0 flex items-center">
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                   <Send className="w-5 h-5 text-white" />
                 </div>
